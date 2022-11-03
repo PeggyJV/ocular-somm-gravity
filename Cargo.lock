@@ -635,6 +635,7 @@ dependencies = [
 [[package]]
 name = "gravity_proto"
 version = "0.2.0"
+source = "git+http://github.com/peggyjv/gravity-bridge?branch=collin/proto-build-dep-upgrades#959291604016590d07f042ea65fa2efe4859a0b3"
 dependencies = [
  "bytes",
  "cosmos-sdk-proto",
@@ -1022,6 +1023,7 @@ dependencies = [
 [[package]]
 name = "ocular"
 version = "1.0.0-rc1"
+source = "git+https://github.com/peggyjv/ocular?branch=collin/orchestrator-parallel#63df9252c8b785ec5c0bb8be1b296839f2c1e3f9"
 dependencies = [
  "assay",
  "async-trait",
